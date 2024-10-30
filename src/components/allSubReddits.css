@@ -1,0 +1,16 @@
+#allSubs.card-body {        
+    display: flex;                
+    align-items: center;          /* Centers vertically */
+    justify-content: center;      /* Centers horizontally */
+    padding: 0.5rem 1rem;
+    text-align: center;   
+}
+
+.row.row-cols-1.row-cols-md-2.g-4.justify-content-center {
+    margin-bottom: 50px;
+}
+
+#allSubs .card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+}

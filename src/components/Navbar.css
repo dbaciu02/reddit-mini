@@ -1,0 +1,64 @@
+/* Navbar Styles */
+.container {
+    display: flex;
+    justify-content: space-between; 
+    width: 100%;
+    max-width: 1200px; 
+}
+
+.navbar {
+    background-color: #F14106;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-brand {
+    transform: translateX(-50%);
+    margin-left: 50%;
+    margin-right: auto;
+    color: antiquewhite !important;
+    font-size: 30px !important;
+}
+
+.navbar-links {
+    margin-left: auto;
+    display: flex;
+    gap: 1rem; 
+    list-style: none;
+}
+
+.navbar-links li {
+    display: inline;
+    width: 50%;
+    margin-top: 15px;
+    margin-bottom: auto;
+}
+
+.navbar-links a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem;
+    transition: background-color 0.3s ease;
+}
+
+.navbar-links a:hover {
+    background-color: #BB1C03;
+}
+
+.navbar-search input {
+    width: 200px;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+}
+  
+.navbar-search button {
+    font-size: 1rem;
+    border-radius: 50%;
+}
+
+.btn.btn-primary.rounded-circle.ms-2 {
+    background-color: #BB1C03;
+    border-color: #BB1C03;
+}
